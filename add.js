@@ -1,0 +1,10 @@
+array1=[1,0,2,3,4];
+array2=[3,5,6,7,8,13];
+list1=[];
+i=0;
+while(i<array1.length){
+    list2=array1[i]+array2[i]
+    list1.push(list2)
+    i++;
+}
+console.log(list1)
